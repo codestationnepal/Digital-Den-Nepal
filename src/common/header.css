@@ -1,0 +1,74 @@
+.head-container {
+  display: flex;
+  height: 15vh;
+  width: 100%;
+}
+.image {
+  height: 50px;
+  width: 70px;
+  background-image: url(../Images/logo.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+  background-color: rgb(147, 213, 237);
+  border-radius: 18px;
+  margin-top: 17px;
+}
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  margin-top: 28px;
+  margin-left: 160px;
+  padding-right: 120px;
+
+
+}
+a {
+  text-decoration: none;
+  padding-left: 16px;
+  color: aliceblue;
+  font-size: 19px;
+  font-weight: 650;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h5{
+    color: rgb(244, 244, 244);
+    font-size: 18px;
+    font-weight: 800;
+    padding-left: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-section{
+    margin-top: 12px;
+    margin-left: 60px;
+    font-size: 2px; 
+    display: flex;
+    padding-top: 14px;
+}
+.login-section img {
+    background-color: aliceblue;
+    height: 30px;
+    width: 30px;
+    border-radius: 22px;
+
+}
+ul{
+    display: flex;
+}
+.nav-links li :hover{
+   color: greenyellow;
+}
+.login-section li :hover{
+    color: greenyellow;
+
+}
+.nav-img{
+    height: 70vh;
+    width: 99vw;
+    background-image: url(../Images/pubg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-attachment: fixed;
+}
