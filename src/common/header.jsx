@@ -1,36 +1,40 @@
 import "./header.css";
-import login from "../Images/login.png";
+import logo from "../Images/logo.png";
+import cart from "../Images/cart.png";
+import wallet from "../Images/wallet.png";
+import user from "../Images/user.png";
+
 export function Header() {
   return (
     <>
-      <div className="head-container">
-        <div className="image"></div>
-        <h5>Digital Den Nepal</h5>
-        <nav className="nav-links">
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Shop</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-          </ul>
-        </nav>
-        <div className="login-section">
-        <img src={login} alt="logo" />
-          <ul>
-           <li> <a href="#">Login</a></li>
-           <li> <a href="#">Register</a></li>
-          </ul>
-        </div>
+      <div className="navbar-left">
+        <img src={logo} alt="image" className="logo-section" />
+        <a href="#" className="logo-text">DIGITAL DEN NEPAL</a>
+        <form className="search-form" action="#" method="get">
+          <input type="text" placeholder="Seach for the products" />
+          <button type="submit">Go</button>
+        </form>
+        <a href="#">
+          <img src={cart} alt="cart" className="cart-img" />
+        </a>
+        <a href="#">
+          <img src={wallet} alt="wallet" className="wallet-img" />
+        </a>
+        <a href="#">
+          <img src={user} alt="user" className="user-img" />
+        </a>
+        <a href="#">Sign in</a>
       </div>
-      <div className="nav-img"></div>
+      <div className="nav-list-container">
+        <ul>
+          <a href="#"><li>PUBG</li></a>
+          <a href="#"><li>FREEFIRE TOPUP</li></a>
+          <a href="#"><li>GIFT CARD</li></a>
+          <a href="#"><li>SUBSCRIPTION</li></a>
+          <a href="#"><li>TIKTOK COINS</li></a>
+
+        </ul>
+      </div>
     </>
   );
 }
