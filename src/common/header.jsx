@@ -9,7 +9,7 @@ export function Header() {
     <>
       <div className="navbar-left">
         <img src={logo} alt="image" className="logo-section" />
-        <a href="#" className="logo-text">DIGITAL DEN NEPAL</a>
+        <h5>DIGITAL DEN NEPAL</h5>
         <form className="search-form" action="#" method="get">
           <input type="text" placeholder="Seach for the products" />
           <button type="submit">Go</button>
@@ -23,7 +23,7 @@ export function Header() {
         <a href="#">
           <img src={user} alt="user" className="user-img" />
         </a>
-        <a href="#">Sign in</a>
+        <a href="#" className="signin">Sign in</a>
       </div>
       <div className="nav-list-container">
         <ul>
@@ -36,5 +36,6 @@ export function Header() {
         </ul>
       </div>
     </>
+    
   );
 }

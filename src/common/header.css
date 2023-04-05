@@ -50,3 +50,9 @@ li{
 li:hover{
   color: greenyellow;
 }
+.navbar-left h5{
+  color: white;
+}
+.signin:hover{
+  color: greenyellow;
+}

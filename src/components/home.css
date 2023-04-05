@@ -1,0 +1,76 @@
+.banner {
+  background-image: url(../Images/home.jpg);
+  border-radius: 22px;
+  height: 50vh;
+  max-width: 95vw;
+  margin-top: 20px;
+  margin-left: 2.5vw;
+}
+h4 {
+  margin: 27px 0px 0px 25px;
+  color: white;
+  font-weight: 800;
+  border-bottom: 4px solid red;
+  width: 18vw;
+}
+/* card css start */
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  background-color: #d9d9d9;
+  height: 52vh;
+  width: 20vw;
+  border-radius: 15px;
+  margin: 22px 0px 14px 15px;
+}
+.card-1 img {
+  height: 44vh;
+  margin: 22px 0px 0px 45px;
+  border-radius: 12px;
+}
+.card-2 img {
+  height: 44vh;
+  margin: 22px 0px 0px 45px;
+  border-radius: 12px;
+}
+.card-3 img {
+  height: 44vh;
+  margin: 22px 0px 0px 45px;
+  border-radius: 12px;
+}
+.card-3 img {
+  height: 44vh;
+  margin: 22px 0px 0px 45px;
+  border-radius: 12px;
+}
+.card-4 img {
+  height: 44vh;
+  margin: 22px 0px 0px 45px;
+  border-radius: 12px;
+}
+.card-1 h5 {
+  background-color: transparent;
+  font-weight: 500;
+  text-align: center;
+}
+.card-2 h5 {
+  background-color: transparent;
+  font-weight: 500;
+  text-align: center;
+}
+.card-3 h5 {
+  background-color: transparent;
+  font-weight: 500;
+  text-align: center;
+}
+.card-4 h5 {
+  background-color: transparent;
+  font-weight: 500;
+  text-align: center;
+}
+/* card css end */
+.product {
+  display: flex;
+  justify-content: center;
+}
