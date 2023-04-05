@@ -1,0 +1,16 @@
+.container {
+  background-color: #3b456b;
+  height: 20vh;
+  width: auto;
+}
+.copyright-container {
+  background-color: 000000;
+  height: 6vh;
+  width: auto;
+}
+.copyright-container h5{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 7px;
+}

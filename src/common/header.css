@@ -5,18 +5,20 @@
   max-height: 12vh;
   justify-content: center;
 }
+
 [type="text"]{
+  outline:none;
   background-color: white;
-  border-radius: 9px;
+  border: none;
+  padding: 6px;
   width: 25vw;
-  height: 4vh;
+  height: 6vh;
   margin-left: 150px;
 }
 [type="submit"]{
   background-color: rgb(46, 218, 46);
-  width: 3vw;
-  height: 5vh;
-  border-radius: 6px;
+  padding:11px;
+  border:none;
   margin:0px 150px 0px 2px;
 }
 .logo-section{
@@ -25,8 +27,8 @@
   justify-content: start;
 }
 .cart-img,.wallet-img,.user-img{
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 43px;
   padding-left: 12px;
   float: right;
   margin-left: 17px;
