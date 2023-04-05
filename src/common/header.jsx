@@ -3,6 +3,7 @@ import logo from "../Images/logo.png";
 import cart from "../Images/cart.png";
 import wallet from "../Images/wallet.png";
 import user from "../Images/user.png";
+import { Link } from "react-router-dom";
 
 export function Header() {
   return (
@@ -23,19 +24,42 @@ export function Header() {
         <a href="#">
           <img src={user} alt="user" className="user-img" />
         </a>
-        <a href="#" className="signin">Sign in</a>
+        <a href="#" className="signin">
+          Sign in
+        </a>
       </div>
       <div className="nav-list-container">
         <ul>
-          <a href="#"><li>PUBG</li></a>
-          <a href="#"><li>FREEFIRE TOPUP</li></a>
-          <a href="#"><li>GIFT CARD</li></a>
-          <a href="#"><li>SUBSCRIPTION</li></a>
-          <a href="#"><li>TIKTOK COINS</li></a>
-
+        <li>
+            <Link className="hov" to="/home">
+              HOME
+            </Link>
+          </li>
+          <li>
+            <Link className="hov" to="/pubg">
+              PUBG
+            </Link>
+          </li>
+          <li>
+            <Link className="hov" to="/freefire">
+              FREEFIRE TOPUP
+            </Link>
+          </li>
+          <li>
+            <Link className="hov" to="/giftcard">
+              GIFT CARD
+            </Link>
+          </li>
+          <li>
+            <Link className="hov" to="/subscription">
+              SUBSCRIPTION
+            </Link>
+          </li>
+          <li>
+            <Link to="/tiktok">TIKTOK COINS</Link>
+          </li>
         </ul>
       </div>
     </>
-    
   );
 }
