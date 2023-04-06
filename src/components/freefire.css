@@ -13,9 +13,10 @@
 .freefire-card-2 img,
 .freefire-card-3 img,
 .freefire-card-4 img {
-  height: 29vh;
-  width: 9vw;
+  height: 35vh;
+  width: 12vw;
   background: none;
-  margin: 43px;
+  margin: 26px;
+  border-radius: 12px;
 
 }

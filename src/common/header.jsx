@@ -30,7 +30,7 @@ export function Header() {
       </div>
       <div className="nav-list-container">
         <ul>
-        <li>
+          <li>
             <Link className="hov" to="/home">
               HOME
             </Link>
@@ -56,7 +56,9 @@ export function Header() {
             </Link>
           </li>
           <li>
-            <Link className="hov" to="/tiktok">TIKTOK COINS</Link>
+            <Link className="hov" to="/tiktok">
+              TIKTOK COINS
+            </Link>
           </li>
         </ul>
       </div>

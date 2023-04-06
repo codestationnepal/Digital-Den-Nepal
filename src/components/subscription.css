@@ -1,0 +1,25 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+  }
+  .sub-card-1,
+  .sub-card-2,
+  .sub-card-3,
+  .sub-card-4 {
+    height: 42vh;
+    width: 33vh;
+    background-color: rgb(173, 210, 210);
+    margin: 44px 22px 47px;
+    border-radius: 12px;
+  }
+  .sub-card-1 img,
+  .sub-card-2 img,
+  .sub-card-3 img,
+  .sub-card-4 img {
+    height: 35vh;
+    width: 12vw;
+    background: none;
+    margin: 26px;
+    border-radius: 12px;
+  }
+  

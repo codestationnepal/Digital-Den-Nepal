@@ -8,6 +8,7 @@ import {Subscription} from "../components/subscription";
 import {Tiktok} from "../components/tiktok";
 
 
+
 export function Rout() {
   return (
     <>
@@ -22,6 +23,7 @@ export function Rout() {
             <Route path="/subscription" element={<Subscription></Subscription>}></Route>
             <Route path="/tiktok" element={<Tiktok></Tiktok>}></Route>
           </Route>
+          
         </Routes>
       </BrowserRouter>
     </>
