@@ -56,7 +56,7 @@ export function Header() {
             </Link>
           </li>
           <li>
-            <Link to="/tiktok">TIKTOK COINS</Link>
+            <Link className="hov" to="/tiktok">TIKTOK COINS</Link>
           </li>
         </ul>
       </div>

@@ -1,8 +1,88 @@
 .container {
-  background-color: #3b456b;
+  display: flex;
+  background-color: #3B456B;
   height: 20vh;
   width: auto;
+  border-radius: 7px;
 }
+/* start left container */
+.left{
+  display:flex ;
+  flex-direction: column;
+  background: none;
+}
+.left .logo{
+  height: 17vh;
+  width: 10vw;
+  background: none;
+  margin-left: 39px;
+
+
+}
+.left h5{
+  color: white;
+  background-color: transparent;
+  margin-top: -22px;
+  margin-left: 39px;
+
+}
+/* end left container */
+
+/* start middle container */
+.middle{
+  height: 8vh;
+  width: 30vw;
+  margin: 52px;
+  margin-left: 250px;
+  background-color: aliceblue;
+  border-radius: 13px;
+}
+.middle .image{
+  height: 7vh;
+  width: 8vw;
+  background: none;
+  padding-right: 15px;
+  padding-top: 8px;
+}
+.middle h5{
+  color:  rgb(255, 255, 255);
+  background: none;
+  margin-top: -20px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 13px;
+}
+/* end middle container */
+.right {
+  height: 50px;
+  background: none;
+  margin: 49px 50px;
+  border-radius:100px;
+  display: flex;
+}
+.right p{
+  width: 12vw;
+  margin-top: 18px;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  font-weight: 300;
+  background-color: transparent;
+}
+.right a{
+  color: black;
+}
+.fb-logo{
+  height: 45px;
+  background: none;
+  margin-top: 2px;
+}
+.right a{
+  background-color: transparent;
+}
+.right:hover{
+  background-color: rgb(249, 249, 249);
+}
+
 .copyright-container {
   background-color: 000000;
   height: 6vh;
