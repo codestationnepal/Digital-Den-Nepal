@@ -1,0 +1,58 @@
+.container-login{
+    margin: 12px;
+    height: 50vh;
+    background-image: url(../../Images/gamesbann.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+    padding: 12px;
+}
+.form-container{
+    height: 40vh;
+    width: 38vw;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 350px;
+    padding-top: 20px;
+    background-color: transparent;
+
+}
+
+.form-field{
+    color: black;
+    background-color: transparent;
+}
+.form-field label{
+    padding-left: 152px;
+    color: white;
+    background-color: transparent;
+}
+.form-field button{
+    color: black;
+    background-color: rgb(54, 184, 54);
+    height: 5vh;
+    width:12vw;
+    border-radius: 9px;
+    border-style: none;
+    font-weight: 500;
+    margin: 12px 240px;
+}
+.form-field a{
+    margin: 2px 0px 0px 345px;
+    color: rgb(204, 201, 236);
+    background-color: transparent;
+}
+.form-field input{
+    width: 25vw;
+    border-radius: 7px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.new ,p{
+   color: white;
+   background-color: transparent;
+   margin-left: 74px;
+}
+.new a{
+    background: transparent;
+    color: rgb(45, 224, 90);
+    margin-left: 5px;
+}

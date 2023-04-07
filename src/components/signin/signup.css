@@ -1,0 +1,27 @@
+.form-cont{
+height: 70vh;
+background-image: url(../../Images/gamesbann.jpg);
+background-position: center;
+background-repeat: repeat-x;
+color: white;
+}
+.field input{
+    border-radius: 6px;
+    color: black;
+}
+.field label{
+    margin: 0px 150px;
+    background: transparent;
+}
+.field button{
+    background-color: rgb(60, 212, 60);
+    height: 5vh;
+    width: 7vw;
+    border-radius: 6px;
+    border: none;
+    margin-top: 11px;
+    margin-left: 250px;
+}
+.field{
+    background: transparent;
+}

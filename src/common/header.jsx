@@ -24,9 +24,9 @@ export function Header() {
         <a href="#">
           <img src={user} alt="user" className="user-img" />
         </a>
-        <a href="#" className="signin">
+        <Link to="/login" className="signin">
           Sign in
-        </a>
+        </Link>
       </div>
       <div className="nav-list-container">
         <ul>
