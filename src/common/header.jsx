@@ -15,15 +15,15 @@ export function Header() {
           <input type="text" placeholder="Seach for the products" />
           <button type="submit">Go</button>
         </form>
-        <a href="#">
+        <Link to="/cart">
           <img src={cart} alt="cart" className="cart-img" />
-        </a>
-        <a href="#">
+        </Link>
+        <Link to="/wallet">
           <img src={wallet} alt="wallet" className="wallet-img" />
-        </a>
-        <a href="#">
+        </Link>
+        <Link to="/login">
           <img src={user} alt="user" className="user-img" />
-        </a>
+        </Link>
         <Link to="/login" className="signin">
           Sign in
         </Link>

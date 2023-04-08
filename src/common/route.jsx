@@ -8,8 +8,8 @@ import {Subscription} from "../components/subscription";
 import {Tiktok} from "../components/tiktok";
 import { Login } from "../components/signin/login";
 import {Signup} from "../components/signin/signup";
-
-
+import { Cart } from "../components/wallet-cart/cart";
+import { Wallet } from "../components/wallet-cart/wallet";
 
 export function Rout() {
   return (
@@ -26,6 +26,9 @@ export function Rout() {
             <Route path="/tiktok" element={<Tiktok></Tiktok>}></Route>
             <Route path="/login" element={<Login></Login>}></Route>
             <Route path="/signup" element={<Signup></Signup>}></Route>
+            <Route path="/wallet" element={<Wallet></Wallet>}></Route>
+            <Route path="/cart" element={<Cart></Cart>}></Route>
+
           </Route>
         </Routes>
       </BrowserRouter>
