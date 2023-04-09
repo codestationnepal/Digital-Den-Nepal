@@ -1,0 +1,69 @@
+.head-rec{
+    background-color: #3B456B;
+    height: 28vh;
+    width: 100%;
+    border-radius: 7px;
+}
+.head-rec p{
+   font-size: 25px;
+   font-weight: 600;
+   padding-top: 12px;
+}
+.pubgcard{
+    display: flex;
+    height: 72vh;
+    width: 87vw;
+    background-color: #D9D9D9;
+    z-index: -2;
+    margin: -110px 0px 17px 60px;
+    border-radius: 12px;
+}
+
+.pubgcard img{
+    height: 59vh;
+    margin: 40px;
+    border-radius: 12px;
+}
+.cont p{
+    color: black;
+    background: none;
+    font-weight: 700;
+}
+.cont{
+    margin: 92px ;
+    height: 28vh;
+    width: 33vw;
+    background: none;
+}
+.ava{
+    height: 5vh;
+    width: 33vh;
+    background-color: rgb(32, 218, 146);
+    border-radius: 4px;
+    margin-top: 50px;
+    z-index: 8;
+}
+.ava p{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 5px 38px;
+}
+.cont .price{
+    margin-top: 33px;
+    font-size: 25px;
+    color: red;
+}
+.cont button{
+    background-color:#e73535;
+    border-style: none;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 7px;
+    margin: 19px 70px;
+    color: white;
+    font-weight: 700;
+}
+.cont button .FaShoppingCart{
+    background-color:  none;
+}

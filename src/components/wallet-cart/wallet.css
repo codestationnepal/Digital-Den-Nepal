@@ -1,5 +1,7 @@
-.container-1{
-    height: 60vh;
-    width: 40vw;
-    background-color: bisque;
+.animation-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
 }

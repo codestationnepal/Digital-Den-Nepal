@@ -1,27 +1,29 @@
-.form-cont{
-height: 70vh;
-background-image: url(../../Images/gamesbann.jpg);
-background-position: center;
-background-repeat: repeat-x;
-color: white;
+.form-cont {
+  height: 70vh;
+  background-image: url(../../Images/gamesbann.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  border: 1px solid red;
 }
-.field input{
-    border-radius: 6px;
-    color: black;
+.field input {
+  border-radius: 6px;
+  color: black;
 }
-.field label{
-    margin: 0px 150px;
-    background: transparent;
+.field label {
+  margin: 0px 150px;
+  background: transparent;
 }
-.field button{
-    background-color: rgb(60, 212, 60);
-    height: 5vh;
-    width: 7vw;
-    border-radius: 6px;
-    border: none;
-    margin-top: 11px;
-    margin-left: 250px;
+.field button {
+  background-color: rgb(60, 212, 60);
+  height: 5vh;
+  width: 7vw;
+  border-radius: 6px;
+  border: none;
+  margin-left: 250px;
 }
-.field{
-    background: transparent;
+.field {
+  background: transparent;
 }

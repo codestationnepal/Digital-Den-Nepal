@@ -16,13 +16,6 @@ export function Giftcard() {
           </div>
         ))}
       </div>
-      <div className="card-container">
-        {Apple.map((appy) => (
-          <div key={appy.id} className={appy.className}>
-            <img src={appy.image} alt="appy" />
-          </div>
-        ))}
-      </div>
     </>
   );
 }

@@ -10,6 +10,7 @@ import { Login } from "../components/signin/login";
 import {Signup} from "../components/signin/signup";
 import { Cart } from "../components/wallet-cart/cart";
 import { Wallet } from "../components/wallet-cart/wallet";
+import {Pubgdetails} from "./../components/details.component/pubg.details";
 
 export function Rout() {
   return (
@@ -28,7 +29,8 @@ export function Rout() {
             <Route path="/signup" element={<Signup></Signup>}></Route>
             <Route path="/wallet" element={<Wallet></Wallet>}></Route>
             <Route path="/cart" element={<Cart></Cart>}></Route>
-
+            <Route path="/pubgdetails" element={<Pubgdetails></Pubgdetails>}></Route>
+            
           </Route>
         </Routes>
       </BrowserRouter>
