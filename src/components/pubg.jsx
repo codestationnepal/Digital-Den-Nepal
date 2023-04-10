@@ -1,4 +1,3 @@
-import React from "react";
 import "./pubg.css";
 import pubg from "../Images/pubgi.jpg";
 import { Link } from "react-router-dom";
@@ -31,18 +30,17 @@ const PUBG = [
     image: pubg,
     details: "385 UC",
     path: "/pubgdetails",
-  },
+  }
 ];
-
 export function Pubg() {
   return (
     <>
       <div className="card-container">
-        {PUBG.map((pubgg) => (
-          <div key={pubgg.id} className={pubgg.className}>
-            <img src={pubgg.image} alt="Card" />
-            <p>{pubgg.details}</p>
-            <Link to={pubgg.path} className="view">
+        {PUBG.map((pubg) => (
+          <div key={pubg.id} className={pubg.className}>
+            <img src={pubg.image} alt="Card" />
+            <p>{pubg.details}</p>
+            <Link to={pubg.path} className="view">
               <button>View Product</button>
             </Link>
           </div>

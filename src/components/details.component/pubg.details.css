@@ -67,3 +67,30 @@
 .cont button .FaShoppingCart{
     background-color:  none;
 }
+.text-container ol{
+    color: white;
+    margin-bottom: 12px;
+
+}
+.text-container p{
+    margin: 0px 260px 47px;
+    font-weight: 600;
+    color: greenyellow;
+
+}
+.text-container{
+    width: 70vw;
+    margin-left: 30px;
+    margin-top: 52px;
+}
+.text-2{
+    color: white;
+    margin: 30px;
+}
+.text-2 p{
+    margin-left: 22px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    color: yellow;
+}

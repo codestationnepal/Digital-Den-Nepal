@@ -8,7 +8,7 @@ export function Wallet() {
         loop
         mode="normal"
         src="https://assets10.lottiefiles.com/packages/lf20_0qvqjlcc.json"
-        style={{ width: "70%", backgroundColor : "white" }}
+        style={{ width: "60%", backgroundColor : "white" }}
       ></lottie-player>
     </div>
   );
