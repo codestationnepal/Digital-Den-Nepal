@@ -16,10 +16,10 @@
   .sub-card-2 img,
   .sub-card-3 img,
   .sub-card-4 img {
-    height: 35vh;
-    width: 12vw;
-    background: none;
-    margin: 26px;
+    height: 25vh;
+  width: 9vw;
+  background: none;
+  margin: 22px 0px 0px 37px;
     border-radius: 12px;
   }
   

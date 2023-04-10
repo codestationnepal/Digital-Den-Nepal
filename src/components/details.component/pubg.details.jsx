@@ -1,14 +1,18 @@
 import "../details.component/pubg.details.css";
-import uc from "../../Images/pubgcard.jpg";
+// import uc from "../../Images/pubgcard.jpg";
+import {PUBG } from "../pubg"
+import { useParams } from "react-router-dom";
 export function Pubgdetails() {
+ const {productId} = useParams();
+ const singleProduct = PUBG.find(product=>product.id === Number(productId));
   return (
     <>
       <div className="container-details">
         <div className="head-rec">
-          <p>PUBG 325 UC PINS (Global)</p>
+          <p>{singleProduct.title}</p>
         </div>
         <div className="pubgcard">
-          <img src={uc} alt="uc" />
+          <img src={singleProduct.image} alt="uc" />
           <div className="cont">
             <p>Delivery mode: DDN Account Delivery</p>
             <p>Time: Instant Platform: Android,IOS </p>
@@ -16,7 +20,7 @@ export function Pubgdetails() {
             <p>Publisher: Tencent Games</p>
             <p>Developer: Tencent Games</p>
             <p>Genre: Gift Card</p>
-            <p className="price">Rs. 670.00</p>
+            <p className="price">{singleProduct.price}</p>
             <button>Buy</button>
           </div>
           <div className="ava">
@@ -30,7 +34,7 @@ export function Pubgdetails() {
             <li>Login to your account at Midasbuy. </li>
             <li>
               Please enter your player ID correctly to avoid any delays when you
-              top up PUBG Mobile with Uplay Credit.{" "}
+              top up PUBG Mobile with Uplay Credit.
             </li>
             <li>Go to "Redeem Code" and enter the code provided.</li>
             <li>

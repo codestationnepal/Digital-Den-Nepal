@@ -13,10 +13,17 @@
 .freefire-card-2 img,
 .freefire-card-3 img,
 .freefire-card-4 img {
-  height: 35vh;
-  width: 12vw;
+  height: 25vh;
+  width: 9vw;
   background: none;
-  margin: 26px;
+  margin: 22px 0px 0px 37px;
   border-radius: 12px;
 
+}
+.card-container p{
+  color: white;
+
+}
+.card{
+  background: transparent;
 }
