@@ -1,0 +1,36 @@
+.timer-container {
+  height: 68vh;
+  width: 60vw;
+  margin: 60px auto;
+}
+.timer-container h1 {
+  margin-top: 7px;
+  color: orange;
+  text-align: center;
+}
+.timer-container h1 {
+  font-size: 33px;
+}
+
+.stylish h2 {
+  color: white;
+  background-color: rgb(237, 37, 37);
+  height: 21vh;
+  width: 21vh;
+  border-radius: 122px;
+  padding-left: 45px;
+  font-weight: 600;
+  margin-top: 19px;
+  font-size: 22px;
+  padding: 44px;
+}
+
+.stylish p {
+  font-size: 22px;
+  margin: 45px;
+  color: greenyellow;
+  margin-top: 55px;
+}
+.stylish {
+  display: flex;
+}
