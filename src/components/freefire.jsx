@@ -9,28 +9,28 @@ const cardData = [
     className: "freefire-card-1",
     image: freefire,
     details: "test",
-    path: "/pubgdetails",
+    path: "/pubg",
   },
   {
     id: 2,
     className: "freefire-card-2",
     image: freefire,
     details: "test",
-    path: "/pubgdetails",
+    path: "/pubg",
   },
   {
     id: 3,
     className: "freefire-card-3",
     image: freefire,
     details: "aaaa",
-    path: "/pubgdetails",
+    path: "/pubg",
   },
   {
     id: 4,
     className: "freefire-card-4",
     image: freefire,
     details: "test",
-    path: "/pubgdetails",
+    path: "/pubg",
   },
 ];
 

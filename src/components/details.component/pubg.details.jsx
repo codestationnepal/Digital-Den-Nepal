@@ -1,5 +1,4 @@
 import "../details.component/pubg.details.css";
-// import uc from "../../Images/pubgcard.jpg";
 import {PUBG } from "../pubg"
 import { useParams } from "react-router-dom";
 export function Pubgdetails() {
@@ -60,7 +59,6 @@ export function Pubgdetails() {
             </li>
           </ol>
         </div>
-        <h4>Similar Product</h4>
       </div>
     </>
   );
